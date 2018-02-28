@@ -5233,7 +5233,7 @@ var where = /*#__PURE__*/__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__inte
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_226__unionWith__ = __webpack_require__(307);
 /* unused harmony reexport unionWith */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_227__uniq__ = __webpack_require__(61);
-/* unused harmony reexport uniq */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_227__uniq__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_228__uniqBy__ = __webpack_require__(114);
 /* unused harmony reexport uniqBy */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_229__uniqWith__ = __webpack_require__(115);
@@ -5529,9 +5529,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var arr1 = [1, 1, 1, 2, 2, 3, 4, 5, 6, 6];
 var arr2 = [5, 6, 6, 6, 7, 7, 8, 9, 10, 1];
 
-var arr3 = __WEBPACK_IMPORTED_MODULE_0_ramda__["a" /* union */](arr1, arr2);
+var arr3 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_ramda__["a" /* union */])(arr1, arr2);
+
+var arr4 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_ramda__["b" /* uniq */])(arr1);
 
 console.log(arr3);
+
+console.log(arr4);
 
 /***/ }),
 /* 121 */
